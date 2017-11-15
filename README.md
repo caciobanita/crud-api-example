@@ -1,4 +1,4 @@
-# Crud Example of a React
+# Crud Example with React
 
 There are actually two examples included here, for comparison, one using Redux and another using MobX
 
