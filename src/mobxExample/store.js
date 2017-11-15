@@ -27,7 +27,6 @@ class EmployeeStore {
     axios
       .delete(`http://localhost:3002/employees/${id}`)
       .then(response => {
-        console.log(this);
         this.employees = this.employees.filter(employee => employee.id !== id);
       })
       .catch(error => console.log(error));
