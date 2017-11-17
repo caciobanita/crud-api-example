@@ -1,6 +1,6 @@
 import axios from "axios";
 
-// Actions
+// Constants
 const LOAD = "my-app/employees/LOAD";
 const CREATE = "my-app/employees/CREATE";
 const REMOVE = "my-app/employees/REMOVE";
